@@ -34,8 +34,12 @@ label {
   color: #ffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .background h1 {
     font-size: 40px; /* Adjust the font size for mobile screens as needed */
+  }
+  .background,
+  .mask {
+    border-radius: 0 !important;
   }
 }
