@@ -10,13 +10,13 @@
   font-weight: bold;
 }
 
-.button-jaringan {
-  background-color: #2196f3; /* Blue color */
-  color: #fff; /* White text for contrast */
-}
-
 label {
   font-weight: 500;
+}
+
+/* Remove box-shadow  */
+.form-control:focus {
+  box-shadow: none;
 }
 
 .btn-price {
@@ -32,4 +32,10 @@ label {
 .btn-price:hover {
   background: #6962d3;
   color: #ffff;
+}
+
+@media (max-width: 767px) {
+  .background h1 {
+    font-size: 40px; /* Adjust the font size for mobile screens as needed */
+  }
 }
