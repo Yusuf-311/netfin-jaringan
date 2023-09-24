@@ -1,0 +1,35 @@
+.background {
+  background-image: url(https://images.unsplash.com/photo-1503951458645-643d53bfd90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.background h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.button-jaringan {
+  background-color: #2196f3; /* Blue color */
+  color: #fff; /* White text for contrast */
+}
+
+label {
+  font-weight: 500;
+}
+
+.btn-price {
+  background: #8077f5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #8077f5;
+  color: #ffff;
+}
+
+/* Hover effect for price buttons */
+.btn-price:hover {
+  background: #6962d3;
+  color: #ffff;
+}
